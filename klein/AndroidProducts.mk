@@ -15,5 +15,5 @@ COMMON_LUNCH_CHOICES := \
 
    PRODUCT_NAME := omni_klein
    PRODUCT_DEVICE := klein
-   PRODUCT_BRAND := YourBrand
-   PRODUCT_MODEL := YourModel
+   PRODUCT_BRAND := blackshark
+   PRODUCT_MODEL := KLE-H0

@@ -1,4 +1,3 @@
-#
 # Copyright (C) 2024 The Android Open Source Project
 # Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
 #
@@ -6,6 +5,7 @@
 #
 
 LOCAL_PATH := device/blackshark/klein
+
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
@@ -13,16 +13,15 @@ AB_OTA_POSTINSTALL_CONFIG += \
     FILESYSTEM_TYPE_system=ext4 \
     POSTINSTALL_OPTIONAL_system=true
 
-# Boot control HAL
+# Boot control HAL - Add as shared library modules
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
-    android.hardware.boot@1.0-service
-
-PRODUCT_PACKAGES += \
-    bootctrl.kona
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+    android.hardware.boot@1.0-service \
     bootctrl.kona \
+    bootctrl.kona.recovery
+
+# Additional dependencies
+PRODUCT_PACKAGES += \
     libgptutils \
     libz \
     libcutils

@@ -12,3 +12,8 @@ COMMON_LUNCH_CHOICES := \
     omni_klein-user \
     omni_klein-userdebug \
     omni_klein-eng
+
+   PRODUCT_NAME := omni_klein
+   PRODUCT_DEVICE := klein
+   PRODUCT_BRAND := YourBrand
+   PRODUCT_MODEL := YourModel

@@ -16,7 +16,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/blackshark/klein/device.mk)
 
 PRODUCT_DEVICE := klein
-PRODUCT_NAME := omni_klein
+PRODUCT_NAME := twrp_klein
 PRODUCT_BRAND := blackshark
 PRODUCT_MODEL := SHARK KLE-H0
 PRODUCT_MANUFACTURER := blackshark

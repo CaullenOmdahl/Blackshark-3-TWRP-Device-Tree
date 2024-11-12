@@ -4,7 +4,6 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-   # Remove or comment out these lines
-   # add_lunch_combo omni_klein-eng
-   # add_lunch_combo omni_klein-user
-   # add_lunch_combo omni_klein-userdebug
+  add_lunch_combo twrp_klein-eng
+  add_lunch_combo twrp_klein-user
+  add_lunch_combo twrp_klein-userdebug

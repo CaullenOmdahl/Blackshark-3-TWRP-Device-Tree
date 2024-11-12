@@ -43,6 +43,8 @@ TARGET_BOOTLOADER_BOARD_NAME := klein
 TARGET_NO_BOOTLOADER := true
 
 # Display
+TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 2400  # Adjusted for the device's screen height
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
@@ -107,7 +109,6 @@ VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
-TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"

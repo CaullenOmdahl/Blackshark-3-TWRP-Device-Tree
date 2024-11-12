@@ -6,7 +6,6 @@
 #
 
 LOCAL_PATH := device/blackshark/klein
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_klein.mk
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
@@ -22,7 +21,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.kona
 
-PRODUCT_PACKAGES += bootctrl.msm.shared
+PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+    bootctrl.kona \
+    libgptutils \
+    libz \
+    libcutils
 
 PRODUCT_PACKAGES += \
     otapreopt_script \

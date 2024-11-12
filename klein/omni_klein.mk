@@ -10,13 +10,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from klein device
 $(call inherit-product, device/blackshark/klein/device.mk)
 
 PRODUCT_DEVICE := klein
-PRODUCT_NAME := twrp_klein
+PRODUCT_NAME := omni_klein
 PRODUCT_BRAND := blackshark
 PRODUCT_MODEL := SHARK KLE-H0
 PRODUCT_MANUFACTURER := blackshark

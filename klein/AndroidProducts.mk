@@ -6,14 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_klein.mk
+    $(LOCAL_DIR)/omni_klein.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_klein-eng \
-    twrp_klein-userdebug \
-    twrp_klein-user
-
-   PRODUCT_NAME := twrp_klein
-   PRODUCT_DEVICE := klein
-   PRODUCT_BRAND := blackshark
-   PRODUCT_MODEL := KLE-H0
+    omni_klein-user \
+    omni_klein-userdebug \
+    omni_klein-eng

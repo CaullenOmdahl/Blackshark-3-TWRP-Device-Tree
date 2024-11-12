@@ -14,13 +14,8 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-service \
-    bootctrl.kona
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     bootctrl.kona \
-    libgptutils \
-    libz \
-    libcutils
+    libbootcontrol
 
 # OTA Packages
 PRODUCT_PACKAGES += \

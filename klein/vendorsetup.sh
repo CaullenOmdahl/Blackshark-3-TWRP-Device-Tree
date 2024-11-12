@@ -6,6 +6,6 @@
 #
 
 COMMON_LUNCH_CHOICES :=  \
-    orangefox_klein-user \
-    orangefox_klein-userdebug \
-    orangefox_klein-eng
+    omni_klein-user \
+    omni_klein-userdebug \
+    omni_klein-eng

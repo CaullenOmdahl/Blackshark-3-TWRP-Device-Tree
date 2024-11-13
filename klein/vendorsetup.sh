@@ -71,4 +71,4 @@ export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 # export FOX_VARIANT="MIUI"
 
 # Include OrangeFox Recovery configurations
-source "~/fox_11.0/device/blackshark/klein/device.mk"
+source "/home/caullen/fox_11.0/device/blackshark/klein/device.mk"

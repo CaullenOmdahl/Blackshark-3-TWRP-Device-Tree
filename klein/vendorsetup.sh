@@ -4,7 +4,7 @@
 
 # Device Information
 export FOX_BUILD_DEVICE="klein"
-export OF_MAINTAINER="CaullenOmdahl"  # Replace with your name
+export OF_MAINTAINER="CaullenOmdahl"
 export FOX_VERSION="R11.1"
 
 # Target Architecture
@@ -70,5 +70,5 @@ export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 # Build Variant (optional)
 # export FOX_VARIANT="MIUI"
 
-# Include OrangeFox Recovery configurations
-source "/home/caullen/fox_11.0/device/blackshark/klein/device.mk"
+# Ensure the vendorsetup.sh is executable
+chmod +x "$0"

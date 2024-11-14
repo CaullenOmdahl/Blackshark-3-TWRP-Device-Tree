@@ -1,8 +1,5 @@
 LOCAL_PATH := device/blackshark/klein
 
-# Include OrangeFox recovery configurations
-$(call inherit-product, vendor/recovery/orangefox.mk)
-
 # A/B OTA Post-install Configuration
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \

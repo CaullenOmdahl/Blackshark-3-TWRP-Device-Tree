@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="github-caullen" fetch="https://github.com/CaullenOmdahl/" />
-    <project path="device/blackshark"
+    <project path="device/blackshark/klein"
              name="Blackshark-3-TWRP-Device-Tree"
-             remote="github-caullen"
-             revision="main" />
+             remote="github-caullen" />
 </manifest>
